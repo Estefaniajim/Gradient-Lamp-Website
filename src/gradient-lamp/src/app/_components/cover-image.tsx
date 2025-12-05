@@ -6,28 +6,23 @@ type Props = {
   title: string;
   src: string;
   slug?: string;
-  aspect?: number; 
+  quality?: number; // NEW (optional)
+  sizes?: string;   // NEW (optional)
 };
 
-const CoverImage = ({ title, src, slug, aspect = 1300 / 630 }: Props) => {
-  const wrapperStyle = {
-    position: "relative" as const,
-    width: "100%",
-    paddingBottom: `${100 / aspect}%`, 
-  };
-
+const CoverImage = ({ title, src, slug, quality, sizes }: Props) => {
   const image = (
-    <div style={wrapperStyle} className="relative shadow-sm">
-      <Image
-        src={src}
-        alt={`Cover Image for ${title}`}
-        fill
-        sizes="(max-width: 768px) 100vw, 700px"
-        className={cn("object-cover rounded-lg", {
-          "hover:shadow-lg transition-shadow duration-200": slug,
-        })}
-      />
-    </div>
+    <Image
+      src={src}
+      alt={`Cover Image for ${title}`}
+      className={cn("shadow-sm w-full", {
+        "hover:shadow-lg transition-shadow duration-200": slug,
+      })}
+      width={1300}
+      height={630}
+      quality={quality ?? 75}             // default stays the same
+      sizes={sizes ?? "(max-width: 768px) 100vw, 1300px"} // default behavior
+    />
   );
 
   return (
