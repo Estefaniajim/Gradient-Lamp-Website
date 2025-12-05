@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import Image from "next/image";
 
@@ -9,28 +10,28 @@ export default function Carousel({ images }: { images: string[] }) {
   const prev = () => setIndex((index - 1 + images.length) % images.length);
 
   return (
-    <div className="w-full flex flex-col items-center py-6">
-      <div className="relative w-80 h-80">
+    <div style={{ width: "100%", textAlign: "center", marginTop: "2rem" }}>
+      <div
+        style={{
+          position: "relative",
+          width: "500px",
+          height: "500px",
+          margin: "0 auto",
+        }}
+      >
         <Image
           src={images[index]}
-          alt="Lamp image"
+          alt="carousel image"
           fill
-          className="object-cover rounded-xl"
+          style={{ objectFit: "cover", borderRadius: "12px" }}
         />
       </div>
 
-      <div className="flex gap-6 mt-4">
-        <button
-          onClick={prev}
-          className="px-4 py-2 bg-gray-200 rounded"
-        >
+      <div style={{ display: "flex", gap: "1rem", marginTop: "1rem", justifyContent: "center" }}>
+        <button onClick={prev} className="px-4 py-2 bg-gray-200 rounded">
           Prev
         </button>
-
-        <button
-          onClick={next}
-          className="px-4 py-2 bg-gray-200 rounded"
-        >
+        <button onClick={next} className="px-4 py-2 bg-gray-200 rounded">
           Next
         </button>
       </div>

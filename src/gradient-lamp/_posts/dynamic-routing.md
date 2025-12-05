@@ -5,6 +5,18 @@ coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
+
+carouselImages:
+    - "/assets/blog/dynamic-routing/both.jpg"
+    - "/assets/blog/dynamic-routing/both3.jpg"
+    - "/assets/blog/dynamic-routing/both4.jpg"
+    - "/assets/blog/dynamic-routing/cover.jpg"
+    - "/assets/blog/dynamic-routing/day.jpg"
+    - "/assets/blog/dynamic-routing/daycloud.jpg"
+    - "/assets/blog/dynamic-routing/nigh1.jpg"
+    - "/assets/blog/dynamic-routing/night2.jpg"
+    - "/assets/blog/dynamic-routing/night3.jpg"
+    - "/assets/blog/dynamic-routing/nighcloud.jpg"
 ---
 
 Seattle’s winter season brings low light, heavy clouds, and long periods of gloomy weather. As newcomers, we noticed how this affects mood, energy, and daily motivation. Indoor spaces often feel dull and monochromatic, especially during the darker months.
@@ -28,3 +40,7 @@ The user can rotate or insert the different disks and the weather mask to transf
 To develop the lamp, we studied how Polagon mosaics refract light through angled acrylic pieces, sketched early concepts for holding multiple mosaics on different faces, and explored color palettes for day, night, and rainy weather. We also created test mosaics to see how acrylic, cellophane, and the solar bulb interacted.
 
 The final result is a culturally inspired and interactive lamp that blends Talavera influenced design with atmospheric lighting.
+
+## Gallery
+
+CAROUSEL_HERE

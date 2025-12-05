@@ -19,6 +19,8 @@ export default async function Post(props: Params) {
 
   const content = await markdownToHtml(post.content || "");
 
+  const carouselImages = post.carouselImages || null;
+
   return (
     <main>
       <Alert preview={post.preview} />
@@ -28,10 +30,8 @@ export default async function Post(props: Params) {
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
-            date={post.date}
-            author={post.author}
           />
-          <PostBody content={content} />
+          <PostBody content={content} carouselImages={carouselImages} />
         </article>
       </Container>
     </main>

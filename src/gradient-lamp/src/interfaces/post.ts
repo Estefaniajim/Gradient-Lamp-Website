@@ -10,6 +10,7 @@ export type Post = {
   ogImage: {
     url: string;
   };
+  carouselImages?: string[];
   content: string;
   preview?: boolean;
 };
