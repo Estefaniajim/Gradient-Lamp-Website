@@ -1,6 +1,6 @@
 ---
 title: "Mechanism"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+excerpt: "To create a lamp that could visually represent different weather conditions, we explored techniques that combine light, color, and material behavior. Our design process led us to study polarized light mosaics and the Polagons fabrication method, which uses birefringent materials to produce controlled color-changing effects."
 coverImage: "/assets/blog/hello-world/cover.jpg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"

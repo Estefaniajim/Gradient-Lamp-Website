@@ -1,19 +1,70 @@
 ---
 title: "Process"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+excerpt: "Throughout this project, we went through several rounds of exploration, prototyping, and refinement. Each stage presented its own successes and challenges, helping us better understand both the Polagons technique and the practical constraints of building a functional lamp. Below is a detailed reflection on each iteration and what we learned from it."
 coverImage: "/assets/blog/preview/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
-author:
-  name: Joe Haddad
-  picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
   url: "/assets/blog/preview/cover.jpg"
+inlineImages:
+  - "/assets/blog/preview/1.1.png"
+  - "/assets/blog/preview/1.2.png"
+  - "/assets/blog/preview/2.2.png"
+  - "/assets/blog/preview/3.1.png"
+  - "/assets/blog/preview/3.2.png"
+  - "/assets/blog/preview/3.4.png"
+  - "/assets/blog/preview/3.5.png"
+  - "/assets/blog/preview/mask.png"
+  - "/assets/blog/preview/4.1.jpg"
+  - "/assets/blog/preview/4.2.jpg"
+  - "/assets/blog/preview/6.1.jpg"
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Throughout this project, we went through several rounds of exploration, prototyping, and refinement. Each stage presented its own successes and challenges, helping us better understand both the Polagons technique and the practical constraints of building a functional lamp. Below is a detailed reflection on each iteration and what we learned from it.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## Iteration 1: Early Sketches and Concept Exploration
 
-## Lorem Ipsum
+In the first round, we created quick sketches to explore how polarized mosaics could be incorporated into a lamp structure. We experimented with color palettes that represented day, night, and rainy weather. This phase helped us translate atmospheric conditions into shapes and tones and taught us how important it was for each face of the lamp to communicate a clear visual theme.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+INLINE_IMAGES_HERE("Yan's Sketch")
+
+INLINE_IMAGES_HERE("Estefania's Sketch")
+
+## Iteration 2: Color and Material Tests
+
+Next, we produced small test mosaics by layering different types of cellophane. Here we observed how subtle changes in stacking, orientation, and thickness influenced the final color. We also tested how the polarizer film interacted with the mosaics. These tests revealed that some colors washed out under certain rotations, which helped us refine our palette and better understand the limits of the materials.
+
+INLINE_IMAGES_HERE("Layers Test")
+
+## Iteration 3: Laser-Cut Acrylic Disks and Panels
+
+We then laser-cut acrylic disks and flat panels to hold the cellophane layers. We also drew the mosaic designs using Inkscape. This iteration allowed us to experiment with the physical structure of the mosaics. We learned that precise cutting was essential because even small misalignments could disrupt the color transitions. This stage also highlighted how fragile the thin cellophane sheets can be, which forced us to adjust our handling and layering techniques.
+
+INLINE_IMAGES_HERE("Disk test")
+
+INLINE_IMAGES_HERE("Disk test")
+
+INLINE_IMAGES_HERE("Day design")
+
+INLINE_IMAGES_HERE("Night design")
+
+INLINE_IMAGES_HERE("Mask design")
+
+
+## Iteration 4: 3D-Printed Components
+
+After refining the mosaic structure, we prototyped the bottom and back pieces using translucent filament. This material created a soft diffusion effect that improved the overall glow of the lamp. We also designed and 3D-printed a top cover using the same filament. This iteration taught us how filament translucency, print thickness, and patterning influence the quality of the emitted light.
+The original design included Talavera-inspired patterns on the 3D-printed faces, but the details were too fine to print accurately. Because of this, we decided to use laser-cut wooden faces instead and only kept the 3D-printed top component. Here is the 360 model.
+
+INLINE_IMAGES_HERE("3D printed top")
+
+INLINE_IMAGES_HERE("Fail 3D print")
+
+## Iteration 5: Laser-Cut Wooden Faces
+
+We created the outer wooden frame of the lamp using laser-cut panels engraved with Talavera-inspired patterns. One challenge was ensuring that the wooden panels aligned perfectly with the 3D-printed top cover, which required several adjustments to the vector files.
+
+
+## Iteration 6: Assembly and Final Adjustments
+Finally, we assembled all components and carried out the last round of testing. This included verifying the alignment of the polarizers, checking that the mosaics produced the intended gradients, and making sure the light diffused evenly. During this phase we discovered small issues with panel fit and light leakage, which we corrected by sanding edges and adding additional diffusion layers where needed.
+
+INLINE_IMAGES_HERE("Final Product")
