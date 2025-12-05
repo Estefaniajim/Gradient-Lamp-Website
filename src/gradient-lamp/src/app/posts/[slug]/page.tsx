@@ -20,6 +20,7 @@ export default async function Post(props: Params) {
   const content = await markdownToHtml(post.content || "");
 
   const carouselImages = post.carouselImages || null;
+  const inlineImages = post.inlineImages || null;
 
   return (
     <main>
@@ -31,7 +32,11 @@ export default async function Post(props: Params) {
             title={post.title}
             coverImage={post.coverImage}
           />
-          <PostBody content={content} carouselImages={carouselImages} />
+          <PostBody 
+          content={content} 
+          carouselImages={carouselImages}
+          inlineImages={inlineImages} 
+          />
         </article>
       </Container>
     </main>

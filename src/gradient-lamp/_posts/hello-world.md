@@ -2,18 +2,42 @@
 title: "Mechanism"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
 coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
-author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
+carouselImages:
+    - "/assets/blog/dynamic-routing/both.jpg"
+    - "/assets/blog/dynamic-routing/both3.jpg"
+    - "/assets/blog/dynamic-routing/both4.jpg"
+    - "/assets/blog/dynamic-routing/cover.jpg"
+    - "/assets/blog/dynamic-routing/day.jpg"
+    - "/assets/blog/dynamic-routing/daycloud.jpg"
+    - "/assets/blog/dynamic-routing/nigh1.jpg"
+    - "/assets/blog/dynamic-routing/night2.jpg"
+    - "/assets/blog/dynamic-routing/night3.jpg"
+    - "/assets/blog/dynamic-routing/nighcloud.jpg"
+inlineImages:
+    - "/assets/blog/dynamic-routing/both.jpg"
+    - "/assets/blog/dynamic-routing/both3.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+To create a lamp that could visually represent different weather conditions, we explored techniques that combine light, color, and material behavior. Our design process led us to study polarized light mosaics and the Polagons fabrication method, which uses birefringent materials to produce controlled color-changing effects. These ideas helped us develop a mechanism that brings our weather-inspired lamp to life through dynamic gradients and shifting tones.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## Mechanism Behind the Lamp
 
-## Lorem Ipsum
+The internal mechanism of our lamp is inspired by the Polagons technique, a fabrication method that uses polarized light mosaics (PLMs) to create dynamic, color-changing visuals. Our goal was to adapt this concept into a functional, weather-themed lamp that shifts its appearance depending on the time of day or the selected weather state.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+INLINE_IMAGES_HERE
+
+To achieve this, we first studied how Polagons work. Cellophane layers, which are naturally birefringent materials, produce vivid colors when placed between two polarizing filters. As polarized light passes through stacked sheets, the observed color changes based on the material thickness, strain direction, and the angle of the polarizers. This principle allowed us to intentionally design color transitions that represent daytime, nighttime, and rainy weather moods.
+
+INLINE_IMAGES_HERE
+
+We began our process by experimenting with birefringent materials and analyzing how light refracted through angled acrylic pieces. We sketched early lamp concepts that could hold different polarized mosaics on separate faces, each corresponding to a different weather condition. From there, we created test mosaics to explore color palettes, layering techniques, and the interaction between polarizer film and colored cellophane. These studies helped us understand how to control gradients, saturation, and smooth transitions.
+
+CAROUSEL_HERE
+
+Mechanically, the lamp works by placing each mosaic between a fixed polarizer at the back and a rotating polarizer at the front. When the user rotates the polarizing filter, or when the internal mechanism rotates it, the color composition of the mosaic shifts. This gradual transformation produces a smooth visual transition that mimics the movement of light in the sky. Warm tones represent daytime, deep blues represent night, and cooler diffused tones represent rainy weather. The wooden exterior with Talavera-inspired engravings frames these effects and connects the optical mechanism to a traditional aesthetic.
+
+Our design is informed by the research presented in Polagons: Designing and Fabricating Polarized Light Mosaics with User-Defined Color-Changing Behaviors from the MIT CSAIL HCI group. Their work formalizes how birefringence, layered cellophane, and polarizer orientations can be combined to create controlled color-changing mosaics. While our lamp is a simplified version, the paper guided our understanding of the physics behind polarized light and helped us translate those principles into a functional and expressive object.
+
+In summary, the lamp combines optical science with handcrafted design. It uses stacked cellophane mosaics, strategically positioned polarizers, and a rotating interface to bring different weather conditions to life through shifting color and light.
