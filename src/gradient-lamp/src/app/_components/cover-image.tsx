@@ -6,20 +6,30 @@ type Props = {
   title: string;
   src: string;
   slug?: string;
+  aspect?: number; 
 };
 
-const CoverImage = ({ title, src, slug }: Props) => {
+const CoverImage = ({ title, src, slug, aspect = 1300 / 630 }: Props) => {
+  const wrapperStyle = {
+    position: "relative" as const,
+    width: "100%",
+    paddingBottom: `${100 / aspect}%`, 
+  };
+
   const image = (
-    <Image
-      src={src}
-      alt={`Cover Image for ${title}`}
-      className={cn("shadow-sm w-full", {
-        "hover:shadow-lg transition-shadow duration-200": slug,
-      })}
-      width={1300}
-      height={630}
-    />
+    <div style={wrapperStyle} className="relative shadow-sm">
+      <Image
+        src={src}
+        alt={`Cover Image for ${title}`}
+        fill
+        sizes="(max-width: 768px) 100vw, 700px"
+        className={cn("object-cover rounded-lg", {
+          "hover:shadow-lg transition-shadow duration-200": slug,
+        })}
+      />
+    </div>
   );
+
   return (
     <div className="sm:mx-0">
       {slug ? (
