@@ -1,19 +1,30 @@
 ---
 title: "Product"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+excerpt: "Seattle’s winter season brings low light, heavy clouds, and long periods of gloomy weather. As newcomers, we noticed how this affects mood, energy, and daily motivation. Indoor spaces often feel dull and monochromatic, especially during the darker months."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
-author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
+
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Seattle’s winter season brings low light, heavy clouds, and long periods of gloomy weather. As newcomers, we noticed how this affects mood, energy, and daily motivation. Indoor spaces often feel dull and monochromatic, especially during the darker months.
+We wanted to design an emotional object that brings color, warmth, and visual variety into a room. Instead of a standard lamp, we explored light as a changing mosaic that reflects the environment.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## The design behind
 
-## Lorem Ipsum
+This lamp combines traditional craftsmanship with a dynamic color-changing light experience. Its outer structure features wooden walls engraved with patterns inspired by Talavera, a vibrant and iconic style of Mexican ceramic art. The patterned wood allows warm, intricate light projections to spill into the room, giving the lamp both cultural character and functional beauty.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+Inside the lamp, a solar powered bulb illuminates a series of interchangeable Polagon mosaics. These mosaics use small acrylic polygons arranged in a way that refracts and filters the light into shifting colors. We explored several approaches for creating color changing effects before selecting the Polagon mosaic technique because it creates rich, layered visuals.
+
+The lamp contains three internal elements:
+
+- **Day disk:** A mosaic with bright, warm tones that evoke sunlight and daytime skies
+- **Night disk:** A cooler, darker mosaic that reflects the calm ambience of night time.  
+- **Weather mask:** A layered piece with a cloud and rain motif that alters the light to represent rainy conditions.
+
+At the top of the lamp, there is a 3D printed cover designed to be translucent. This cover softens and diffuses the solar light, allowing a gentle glow to pass upward while complementing the changing colors inside the lamp.
+
+The user can rotate or insert the different disks and the weather mask to transform the lamp’s internal scene. This allows the light to shift according to the time of day or the weather.
+To develop the lamp, we studied how Polagon mosaics refract light through angled acrylic pieces, sketched early concepts for holding multiple mosaics on different faces, and explored color palettes for day, night, and rainy weather. We also created test mosaics to see how acrylic, cellophane, and the solar bulb interacted.
+
+The final result is a culturally inspired and interactive lamp that blends Talavera influenced design with atmospheric lighting.
