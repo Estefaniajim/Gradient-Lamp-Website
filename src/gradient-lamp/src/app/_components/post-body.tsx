@@ -12,34 +12,56 @@ type Props = {
 
 export function PostBody({ content, carouselImages, inlineImages }: Props) {
   const CAROUSEL_MARKER = "CAROUSEL_HERE";
-  const IMAGE_MARKER = "INLINE_IMAGES_HERE";
 
   let imageIndex = 0;
 
+  const imageRegex = /INLINE_IMAGES_HERE\("([^"]*)"\)/g;
+
   const renderWithInlineImages = (html: string) => {
-    const parts = html.split(IMAGE_MARKER);
     const output: any[] = [];
+    let lastIndex = 0;
+    let match;
 
-    parts.forEach((part, idx) => {
-      output.push(
-        <div
-          key={`html-${idx}-${Math.random()}`}
-          className={markdownStyles["markdown"]}
-          dangerouslySetInnerHTML={{ __html: part }}
-        />
-      );
+    while ((match = imageRegex.exec(html)) !== null) {
+      const fullMatch = match[0];
+      const altText = match[1];
+      const index = match.index;
 
-      if (idx < parts.length - 1 && inlineImages && inlineImages[imageIndex]) {
+      const before = html.slice(lastIndex, index);
+      if (before) {
+        output.push(
+          <div
+            key={`html-${index}-${Math.random()}`}
+            className={markdownStyles["markdown"]}
+            dangerouslySetInnerHTML={{ __html: before }}
+          />
+        );
+      }
+
+      if (inlineImages && inlineImages[imageIndex]) {
         output.push(
           <InlineImage
             key={`img-${imageIndex}`}
             src={inlineImages[imageIndex]}
-            alt={`Inline image ${imageIndex + 1}`}
+            alt={altText || `Inline image ${imageIndex + 1}`}
           />
         );
         imageIndex++;
       }
-    });
+
+      lastIndex = index + fullMatch.length;
+    }
+
+    const after = html.slice(lastIndex);
+    if (after) {
+      output.push(
+        <div
+          key={`after-${Math.random()}`}
+          className={markdownStyles["markdown"]}
+          dangerouslySetInnerHTML={{ __html: after }}
+        />
+      );
+    }
 
     return output;
   };
